@@ -38,7 +38,9 @@ export const About: React.FC = () => {
           </p>
         </LeftContent>
         <RightContainer>
-          <img src='portrait.png' alt='' />
+          <div className='content'>
+            <img src='portrait.png' alt='' />
+          </div>
         </RightContainer>
       </ContainerContent>
     </Container>

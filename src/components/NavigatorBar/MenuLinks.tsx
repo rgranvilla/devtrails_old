@@ -21,6 +21,9 @@ const MenuLinks: React.FC<MenuLinksProps> = ({ isOpen }) => {
           <p>About</p>
         </a>
         <a href='/'>
+          <p>Skills</p>
+        </a>
+        <a href='/'>
           <p>Works</p>
         </a>
         <a href='/'>

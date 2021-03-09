@@ -1,3 +1,6 @@
+import React from 'react';
+import theme from '../styles/theme';
+
 import {
   FaLinkedin,
   FaGithub,
@@ -15,14 +18,14 @@ import {
 } from '../styles/pages/Hero';
 
 const Hero: React.FC = () => {
-  const iconSize = '3rem';
-  const iconColor = ``;
+  const iconSize = '4rem';
+  const iconColor = theme.primary;
 
   return (
     <Container>
       <VerticalTitle>Web Developer</VerticalTitle>
       <NameText>
-        ricardo<span>.</span>granvilla
+        Ricardo<span>.</span>Granvilla
       </NameText>
       <WelcomeText>
         <p>Welcome to my website!</p>

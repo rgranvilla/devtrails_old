@@ -5,7 +5,7 @@ import MenuLinks from './MenuLinks';
 
 const Burger: React.FC = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
+
   return (
     <>
       <StyledBurger isOpen={open} onClick={() => setOpen(!open)}>

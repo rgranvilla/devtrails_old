@@ -11,11 +11,17 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
 
+  padding-top: 40vh;
+
   height: 100%;
   width: 100%;
   
   background: url('backgroundImg.png') no-repeat center;
   background-size: cover;
+
+  @media screen and (max-width: 320px) {
+    padding-top: 25vh;
+  }
 `;
 
 export const Nav = styled.div`
@@ -32,5 +38,5 @@ export const Nav = styled.div`
 `;
 
 export const AboutContainer = styled.div`
-  height: 80vh;
+  height: auto;
 `;

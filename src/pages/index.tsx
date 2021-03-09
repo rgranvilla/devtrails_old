@@ -1,11 +1,12 @@
 import Head from 'next/head';
-import NavigatorBar from '../components/NavigatorBar/NavigatorBar';
+
 import {
   Container,
   Nav,
   HeroContainer,
   AboutContainer,
 } from '../styles/pages/Home';
+import NavigatorBar from '../components/NavigatorBar/NavigatorBar';
 import { About } from './_about';
 import Hero from './_hero';
 
